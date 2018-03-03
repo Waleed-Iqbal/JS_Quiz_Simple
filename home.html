@@ -11,11 +11,11 @@
     <section id="quiz-area">
         <header>
             <h1>Sample JavaScript Quiz</h1>
-            <p>Test your knowledge in
-                <strong>JavaScript fundamentals</strong>
-            </p>
+            <p> Test your knowledge in <strong> JavaScript fundamentals </strong></p>
         </header>
-        <section id="questions-area">
+        <form id="questions-area" name="quizForm" onsubmit="return submitAnswers()">
+            <div id="result">                
+            </div>
 
             <br>
             <h3>In which HTML element do we put in JavaScript code?</h3>
@@ -80,7 +80,7 @@
             <br>
 
             <input type="submit" value="Submit Answers">
-        </section>
+        </form>
         <footer> Copy &copy; 2018. All Rights Reserved</footer>
     </section>
 

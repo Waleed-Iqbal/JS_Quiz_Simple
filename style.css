@@ -9,9 +9,9 @@ header {
     border-bottom: 1px dashed white;
 }
 
-header>span {
-    padding-bottom: 20px;
-}
+    header > span {
+        padding-bottom: 20px;
+    }
 
 #quiz-area {
     /* height: 100%; */
@@ -23,18 +23,31 @@ header>span {
     overflow: auto;
 }
 
-#quiz-area>h1,
-#quiz-area>span {
-    text-align: center;
+
+    #quiz-area > h1 {
+        color: white;
+        background-color: orange;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    #quiz-area > span {
+        display: inline-block;
+    }
+
+#result {
+    width: auto;
 }
 
-#quiz-area>span {
-    display: inline-block;
-}
+    #result > p {
+        color: white;
+        background-color: orange;
+        font-weight: 600;
+        width: fit-content;
+    }
 
-#questions-area {
-    margin: 10px 50px 10px 50px;
-    text-align: left;
+span {
+    color: black;
 }
 
 input[type="submit"] {
